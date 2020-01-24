@@ -15,3 +15,6 @@ test("Calc-Multiply", () => {
 test("Calc-Div", () => {
   expect(Calculator.div(1,2)).toBe(2);
 });
+test("Calc-Multiply-Failed", () => {
+  expect(Calculator.multiply(100,223)).toBe(2);
+});
